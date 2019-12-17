@@ -67,6 +67,7 @@
 };
 
 &soc {
+/*	lavender doesnt support hbtp
 	hbtp {
 		compatible = "qcom,hbtp-input";
 		pinctrl-names = "pmx_ts_active", "pmx_ts_suspend";
@@ -84,7 +85,7 @@
 		qcom,afe-force-power-on;
 		qcom,afe-power-on-delay-us = <1000>;
 		qcom,afe-power-off-delay-us = <6>;
-	};
+	};*/
 };
 
 &slim_aud {
