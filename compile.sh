@@ -29,7 +29,7 @@ export KBUILD_COMPILER_STRING="$(${CC} --version | head -n 1 | perl -pe 's/\(htt
 make O=$out clean
 make O=$out mrproper
 # Make <defconfig>
-make O=$out ARCH=arm64 lavender_defconfig
+make O=$out ARCH=arm64 lavender-perf_defconfig
 DATE_START=$(date +"%s")
 # Build Kernel
 make O=$out ARCH=arm64 \
